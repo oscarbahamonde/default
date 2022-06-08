@@ -1,0 +1,15 @@
+{
+  "name": "dellycloud",
+  "version": "0.0.1",
+  "description": "Cloud API",
+  "main": "main.py",
+  "author": "oscarbahamonde",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon python main.py",
+    "prod": "uvicorn main:main --host 0.0.0.0 --port 80 --reload"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
